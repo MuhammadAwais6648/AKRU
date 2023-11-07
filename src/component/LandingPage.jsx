@@ -172,7 +172,7 @@ function LandingPage() {
         ) : null}
       </Box>
 
-      <Box pt={5} mt={40} p={4} position="relative">
+      <Box pt={5} mt={10} p={4} position="relative">
         <Container maxW="container.xl">
           <Grid templateColumns="repeat(12, 1fr)" gap={6}>
             <GridItem colSpan={4}>
