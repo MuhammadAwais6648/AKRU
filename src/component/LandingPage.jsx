@@ -91,7 +91,7 @@ function LandingPage() {
   return (
     <>
       <Box pr={5} bg={useColorModeValue("white", "gray.900")} px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex pl={20} ml={0} h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -100,7 +100,7 @@ function LandingPage() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            <Box pl={5}>
+            <Box >
               <Image src={img6} alt="Logo" />
             </Box>
             <HStack
